@@ -1,0 +1,34 @@
+
+modLoader="javafml"
+loaderVersion="[44,)"
+license="MIT license"
+issueTrackerURL="https://github.com/Iunius118/ToLaserBlade-ExtraModels/issues"
+
+[[mods]]
+modId="tlbexmodels"
+version="${file.jarVersion}"
+displayName="ToLaserBlade-ExtraModels"
+displayURL="https://github.com/Iunius118/ToLaserBlade-ExtraModels"
+logoFile="tlbexmodels_logo.png"
+credits="Created by Iunius118."
+authors="Iunius118"
+description="A ToLaserBlade add-on to add more laser blade shapes."
+
+[[dependencies.tlbexmodels]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tlbexmodels]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tlbexmodels]]
+    modId="tolaserblade"
+    mandatory=true
+    versionRange="[1.19.3,)"
+    ordering="AFTER"
+    side="BOTH"
