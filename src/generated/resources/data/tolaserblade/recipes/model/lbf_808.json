@@ -1,0 +1,12 @@
+{
+  "type": "tolaserblade:model_change",
+  "addition": {
+    "item": "minecraft:tropical_fish"
+  },
+  "base": {
+    "item": "tolaserblade:laser_blade_fp"
+  },
+  "result": {
+    "model_type": 808
+  }
+}
