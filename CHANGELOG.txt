@@ -1,0 +1,9 @@
+# Change Log
+[ToLaserBlade-AdditionalModels](https://www.curseforge.com/minecraft/mc-mods/tolaserblade-extramodels).
+[Source](https://github.com/Iunius118/ToLaserBlade-ExtraModels).
+
+## [Unreleased]
+
+## [0.0.1-beta.1]
+### Added
+- Extra laser blade shapes and recipes: 101, 217, 222, 305, 316, 606, 726, 808, and 1221.
