@@ -7,6 +7,7 @@ import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
@@ -23,6 +24,9 @@ public class ExModelsRecipeProvider extends RecipeProvider implements ICondition
         addModelChangeRecipes(consumer, Ingredient.of(Items.SALMON), 222);
         addModelChangeRecipes(consumer, Ingredient.of(Items.DRAGON_BREATH), 305);
         addModelChangeRecipes(consumer, Ingredient.of(Items.SHIELD), 316);
+        addModelChangeRecipes(consumer, Ingredient.of(Items.SLIME_BALL), 407);
+        addModelChangeRecipes(consumer, Ingredient.of(Blocks.DIAMOND_ORE), 504);
+        addModelChangeRecipes(consumer, Ingredient.of(Blocks.DIAMOND_ORE), 519);
         addModelChangeRecipes(consumer, Ingredient.of(Items.HONEYCOMB), 606);
         addModelChangeRecipes(consumer, Ingredient.of(Items.COD), 726);
         addModelChangeRecipes(consumer, Ingredient.of(Items.TROPICAL_FISH), 808);
