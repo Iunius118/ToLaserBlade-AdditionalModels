@@ -119,7 +119,7 @@ jar {
         ])
     }
 
-    from("LICENSE", "CHANGELOG.txt", "CREDITS.txt")
+    from("LICENSE", "CHANGELOG.txt", "CHEATSHEET.txt", "CREDITS.txt")
 }
 
 jar.finalizedBy('reobfJar')

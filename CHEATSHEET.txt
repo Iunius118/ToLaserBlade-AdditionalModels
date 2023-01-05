@@ -1,0 +1,29 @@
+# Cheatsheet
+ToLaserBlade-ExtraModels v0.0.1
+
+This mod is a ToLaserBlade add-on to add more laser blade shapes.
+
+## Requirements
+- Forge
+  - ToLaserBlade (Forge) v6.0.0.0+
+  - https://www.curseforge.com/minecraft/mc-mods/tolaserblade
+- Fabric
+  - ToLaserBlade (Fabric) v0.7.0.4+
+  - https://www.curseforge.com/minecraft/mc-mods/tolaserblade-fabric
+
+## Recipes
+### Changing Laser Blade Shape
+Smithing Table:
+
+- Type 101 (Minecraft like): Laser Blade + Iron Sword
+- Type 217 (narrow): Laser Blade + Yellow Candle
+- Type 222 (cat 1): Laser Blade + Raw Salmon
+- Type 305 (thin): Laser Blade + Dragon's Breath
+- Type 316 (shield like): Laser Blade + Shield
+- Type 407 (no guard): Laser Blade + Slimeball
+- Type 504 (narrow and long): Laser Blade + Diamond Ore
+- Type 519 (double-bladed): Laser Blade + Diamond Ore
+- Type 606 (hexagonal): Laser Blade + Honeycomb
+- Type 726 (shark): Laser Blade + Raw Cod
+- Type 808 (cat 2): Laser Blade + Tropical Fish
+- Type 1221 (super multilayer): Laser Blade + End Crystal
