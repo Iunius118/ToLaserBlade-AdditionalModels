@@ -1,5 +1,3 @@
-import org.apache.tools.ant.filters.ReplaceTokens
-
 plugins {
     id 'eclipse'
     id 'maven-publish'
@@ -102,7 +100,7 @@ dependencies {
 processResources {
     // Replace @MOD_VERSION@ to mod version for fabric.mod.json
     filesMatching("**/fabric.mod.json") {
-        filter(ReplaceTokens, tokens: [MOD_VERSION: project.mod_version])
+        expand MOD_VERSION: project.mod_version
     }
 }
 

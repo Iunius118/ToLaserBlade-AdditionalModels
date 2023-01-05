@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "tlbexmodels",
-  "version": "@MOD_VERSION@",
+  "version": "${MOD_VERSION}",
 
   "name": "ToLaserBlade-ExtraModels",
   "description": "A ToLaserBlade add-on to add more laser blade shapes.",
