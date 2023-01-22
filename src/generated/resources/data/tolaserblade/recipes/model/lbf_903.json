@@ -1,0 +1,12 @@
+{
+  "type": "tolaserblade:model_change",
+  "addition": {
+    "item": "minecraft:lightning_rod"
+  },
+  "base": {
+    "item": "tolaserblade:laser_blade_fp"
+  },
+  "result": {
+    "model_type": 903
+  }
+}
