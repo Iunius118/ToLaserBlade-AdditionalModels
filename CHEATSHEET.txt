@@ -16,14 +16,22 @@ This mod is a ToLaserBlade add-on to add more laser blade shapes.
 Smithing Table:
 
 - Type 101 (Minecraft like): Laser Blade + Iron Sword
-- Type 217 (narrow): Laser Blade + Yellow Candle
+- Type 217 (slim): Laser Blade + Yellow Candle
 - Type 222 (cat 1): Laser Blade + Raw Salmon
 - Type 305 (thin): Laser Blade + Dragon's Breath
 - Type 316 (shield like): Laser Blade + Shield
 - Type 407 (no guard): Laser Blade + Slimeball
-- Type 504 (narrow and long): Laser Blade + Diamond Ore
+- Type 504 (slim and long): Laser Blade + Diamond Ore
 - Type 519 (double-bladed): Laser Blade + Diamond Ore
 - Type 606 (hexagonal): Laser Blade + Honeycomb
 - Type 726 (shark): Laser Blade + Raw Cod
+- Type 801 (firearm style): Laser Blade + Crossbow
 - Type 808 (cat 2): Laser Blade + Tropical Fish
+- Type 825 (double-sized blade): Laser Blade + Barrel
+- Type 903 (katana): Laser Blade + Lightning Rod
+- Type 913 (hand blender): Laser Blade + Piston
+- Type 924 (flashlight): Laser Blade + Spyglass
+- Type 1009 (poleaxe): Laser Blade + Iron Axe
+- Type 1108 (covered with blade): Laser Blade + Wooden Sword
+- Type 1216 (large pommel): Laser Blade + Stone Sword
 - Type 1221 (super multilayer): Laser Blade + End Crystal

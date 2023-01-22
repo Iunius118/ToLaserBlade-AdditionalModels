@@ -4,10 +4,14 @@
 
 ## [Unreleased]
 
+## [0.0.1]
+### Added
+- Extra laser blade shapes and recipes: model 801, 825, 903, 913, 924, 1009, 1108, and 1216.
+
 ## [0.0.1-beta.2]
 ### Added
 - Extra laser blade shapes and recipes: model 407, 504, and 519.
-- CHEATSHEET.txt
+- CHEATSHEET.txt.
 
 ## [0.0.1-beta.1]
 ### Added
