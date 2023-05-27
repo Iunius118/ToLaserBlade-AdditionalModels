@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+## [0.0.2]
+### Changed
+- Compatible with ToLaserBlade for Minecraft 1.20.
+- In Minecraft 1.20 and later, all recipes require Laser Blade Blueprint as template.
+
 ## [0.0.1]
 ### Added
 - Extra laser blade shapes and recipes: model 801, 825, 903, 913, 924, 1009, 1108, and 1216.
