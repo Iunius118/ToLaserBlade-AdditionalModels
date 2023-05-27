@@ -98,7 +98,7 @@ dependencies {
 }
 
 processResources {
-    // Replace @MOD_VERSION@ to mod version for fabric.mod.json
+    // Replace ${MOD_VERSION} to mod version for fabric.mod.json
     filesMatching("**/fabric.mod.json") {
         expand MOD_VERSION: project.mod_version
     }
@@ -118,6 +118,16 @@ jar {
     }
 
     from("LICENSE", "CHANGELOG.txt", "CHEATSHEET.txt", "CREDITS.txt")
+    // Exclude Java codes
+    exclude('**/*.class')
+    includeEmptyDirs(false)
+
+    // Replace "javafml" to "lowcodefml" in Forge mods.toml to avoid loading mod class
+    filesMatching('**/mods.toml') {
+        filter { line ->
+            line.replaceFirst(/javafml/,"lowcodefml")
+        }
+    }
 }
 
 jar.finalizedBy('reobfJar')
