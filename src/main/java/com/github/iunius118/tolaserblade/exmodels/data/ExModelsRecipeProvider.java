@@ -1,6 +1,5 @@
 package com.github.iunius118.tolaserblade.exmodels.data;
 
-import com.github.iunius118.tolaserblade.data.LBModelChangeRecipeBuilder;
 import com.github.iunius118.tolaserblade.world.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -41,10 +40,10 @@ public class ExModelsRecipeProvider extends RecipeProvider implements ICondition
     }
 
     private void addModelChangeRecipes(Consumer<FinishedRecipe> consumer, Ingredient addition, int modelType) {
-        LBModelChangeRecipeBuilder.modelChangeRecipe(Ingredient.of(ModItems.LASER_BLADE), addition, modelType)
+        ExLBModelChangeRecipeBuilder.modelChangeRecipe(Ingredient.of(ModItems.LB_BLUEPRINT), Ingredient.of(ModItems.LASER_BLADE), addition, modelType)
                 .addCriterion("has_laser_blade", has(ModItems.LASER_BLADE))
                 .build(consumer, "tolaserblade:model/lb_" + modelType);
-        LBModelChangeRecipeBuilder.modelChangeRecipe(Ingredient.of(ModItems.LASER_BLADE_FP), addition, modelType)
+        ExLBModelChangeRecipeBuilder.modelChangeRecipe(Ingredient.of(ModItems.LB_BLUEPRINT), Ingredient.of(ModItems.LASER_BLADE_FP), addition, modelType)
                 .addCriterion("has_laser_blade_fp", has(ModItems.LASER_BLADE_FP))
                 .build(consumer, "tolaserblade:model/lbf_" + modelType);
     }
