@@ -23,7 +23,7 @@ description="A ToLaserBlade add-on to add more laser blade shapes."
 [[dependencies.tlbexmodels]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.3,1.20)"
+    versionRange="[1.19.3,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.tlbexmodels]]
