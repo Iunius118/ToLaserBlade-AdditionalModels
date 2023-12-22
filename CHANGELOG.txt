@@ -1,8 +1,12 @@
 # Change Log
-[ToLaserBlade-AdditionalModels](https://www.curseforge.com/minecraft/mc-mods/tolaserblade-extramodels).
+[ToLaserBlade-AdditionalModels](https://github.com/Iunius118/ToLaserBlade-ExtraModels#readme).
 [Source](https://github.com/Iunius118/ToLaserBlade-ExtraModels).
 
 ## [Unreleased]
+
+## [0.0.3]
+### Fixed
+- Compatible with NeoForge 20.4+.
 
 ## [0.0.2]
 ### Changed
