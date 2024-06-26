@@ -1,5 +1,6 @@
 # Credits
-## Author
-ToLaserBlade-AdditionalModels 
-Copyright (c) 2023 Iunius118
-https://github.com/Iunius118/ToLaserBlade-AdditionalModels
+## ToLaserBlade-AdditionalModels
+[ToLaserBlade-AdditionalModels](https://github.com/Iunius118/ToLaserBlade-AdditionalModels)
+
+### Author
+- Iunius118

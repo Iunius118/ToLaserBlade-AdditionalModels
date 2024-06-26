@@ -1,5 +1,5 @@
 # Cheatsheet
-ToLaserBlade-ExtraModels v0.0.4
+ToLaserBlade-ExtraModels v0.0.5
 
 This mod is a ToLaserBlade add-on to add more laser blade shapes.
 

@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [0.0.5]
+### Fixed
+- Compatible with Minecraft 1.21+.
+
 ## [0.0.4]
 ### Fixed
 - Compatible with NeoForge 20.5+.
