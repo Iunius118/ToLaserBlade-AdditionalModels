@@ -119,6 +119,15 @@ jar {
     }
 
     from("LICENSE", "CHANGELOG.txt", "CHEATSHEET.txt", "CREDITS.txt")
+
+    // For 1.21+
+    from('src/generated/resources/data/tolaserblade/advancements') {
+        into 'data/tolaserblade/advancement'
+    }
+    from('src/generated/resources/data/tolaserblade/recipes') {
+        into 'data/tolaserblade/recipe'
+    }
+
     // Exclude Java codes
     exclude('**/*.class')
     includeEmptyDirs(false)
