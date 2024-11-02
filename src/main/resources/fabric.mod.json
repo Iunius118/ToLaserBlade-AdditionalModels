@@ -22,10 +22,10 @@
   },
   "depends": {
     "tolaserblade": "*",
-    "fabricloader": ">=0.14.10",
+    "fabricloader": ">=0.16.0",
     "fabric": "*",
-    "minecraft": ">=1.19",
-    "java": ">=17"
+    "minecraft": ">=1.21.3",
+    "java": ">=21"
   },
   "suggests": {
     "another-mod": "*"

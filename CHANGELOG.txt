@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+## [0.1.0]
+### Changed
+- Compatible with Minecraft 1.21.3+.
+- Support new recipe data format.
+
 ## [0.0.5]
 ### Fixed
 - Compatible with Minecraft 1.21+.
