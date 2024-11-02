@@ -13,8 +13,8 @@ public class TLBExModels {
     public static final String MOD_ID = "tlbexmodels";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public TLBExModels() {
-        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public TLBExModels(FMLJavaModLoadingContext context) {
+        final IEventBus modEventBus = context.getModEventBus();
 
         // Register event handler
         modEventBus.addListener(this::gatherData);
@@ -24,8 +24,9 @@ public class TLBExModels {
     private void gatherData(final GatherDataEvent event) {
         var dataGenerator = event.getGenerator();
         var packOutput = dataGenerator.getPackOutput();
+        var lookupProvider = event.getLookupProvider();
         boolean includesServer = event.includeServer();
 
-        dataGenerator.addProvider(includesServer, new ExModelsRecipeProvider(packOutput));
+        dataGenerator.addProvider(includesServer, new ExModelsRecipeProvider.Runner(packOutput, lookupProvider));
     }
 }
